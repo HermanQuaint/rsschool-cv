@@ -205,6 +205,17 @@ input[type="radio"].visually-hidden {
 
 /* Skills - end */
 
+/* Portfolio - start */
+.portfolio__title {
+  text-align: center;
+}
+
+.portfolio__link {
+  display: block;
+  text-align: center;
+}
+/* Portfolio - end */
+
 /* main - end */
 
 /* footer - start */
