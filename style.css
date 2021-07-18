@@ -218,7 +218,7 @@ input[type="radio"].visually-hidden {
   margin: 10px 10px;
   padding: 5px;
 
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, .3);
   border-radius: 5px;
 }
 
@@ -280,5 +280,14 @@ input[type="radio"].visually-hidden {
 /* main - end */
 
 /* footer - start */
+
+.footer{
+  border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.copyright__text {
+  text-align: center;
+  color: rgba(0, 0, 0, .5);
+}
 
 /* footer - end */
