@@ -1,4 +1,3 @@
-
 /* Fonts - start */
 
 /* Fonts - end */
@@ -125,11 +124,9 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
 }
 
-.nav__logo {
-  
-}
+.nav__logo {}
 
-.nav__logo__link{
+.nav__logo__link {
 
   text-transform: uppercase;
   color: var(--text);
@@ -159,9 +156,22 @@ input[type="radio"].visually-hidden {
 .nav__item__link {
   color: var(--text);
 }
+
 /* header - end */
 
 /* main - start */
+.name {
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .name {
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
 
 /* main - end */
 
