@@ -223,7 +223,7 @@ input[type="radio"].visually-hidden {
   margin: 10px 10px;
   padding: 5px;
 
-  border: 2px solid rgba(0, 0, 0, .3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
 
@@ -248,7 +248,7 @@ input[type="radio"].visually-hidden {
 }
 
 .portfolio__task {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 .task__text {
   background-color: var(--background);
@@ -313,8 +313,8 @@ input[type="radio"].visually-hidden {
   justify-content: space-around;
   padding: 20px 0;
 
-  border-top: 1px solid rgba(0, 0, 0, .1);
-  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .school__link {
@@ -331,7 +331,7 @@ input[type="radio"].visually-hidden {
 .copyright__text {
   text-align: center;
 
-  color: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* footer - end */
