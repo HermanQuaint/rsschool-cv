@@ -164,6 +164,11 @@ input[type="radio"].visually-hidden {
   }
 }
 
+.avatar {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Contacts - start */
 
 .contacts__title {
