@@ -64,6 +64,13 @@
     <section class="portfolio">
       <h2 class="portfolio__title" id="portfolio">Portfolio</h2>
       <a class="portfolio__link" href="https://german-sh.ru/#portfolio">german-sh.ru</a>
+      <details class="portfolio__task">
+        <summary class="task__text">The task for CodeWars.<br>Convert number to reversed array of digits
+          Given a random non-negative number, you have to return the digits of this number within an array in reverse order.</summary>
+        <code class="task__code">function digitize(n) {<br>
+        &nbsp;&nbsp;  return String(n).split('').reverse().map((item) => Number(item));</code>
+        }
+    </details>
     </section>
 
     <section class="experience">
@@ -107,6 +114,7 @@
       <h2 class="visually-hidden">Сopyright</h2>
       <p class="copyright__text">© 2021 Sakhno German</p>
   </section>
+
   </footer>
 </body>
 
