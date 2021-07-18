@@ -243,6 +243,23 @@ input[type="radio"].visually-hidden {
 
 /* Portfolio - end */
 
+/* Experience - start */
+
+.experience__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.experience__list {
+  padding: 0;
+  margin: -14px 0;
+
+  list-style: none;
+}
+
+/* Experience - end */
+
 /* main - end */
 
 /* footer - start */
