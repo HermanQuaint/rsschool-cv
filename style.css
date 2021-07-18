@@ -173,6 +173,13 @@ input[type="radio"].visually-hidden {
   }
 }
 
+/* Contacts - start */
+  .contacts__list {
+    padding: 0;
+    list-style: none;
+  }
+/* Contacts - end */
+
 /* main - end */
 
 /* footer - start */
