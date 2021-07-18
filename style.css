@@ -260,6 +260,17 @@ input[type="radio"].visually-hidden {
 
 /* Experience - end */
 
+/* Education - start */
+
+.education__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+
+/* Education - end */
+
 /* main - end */
 
 /* footer - start */
