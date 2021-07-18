@@ -1,0 +1,337 @@
+:root {
+  --text: #000000;
+
+  --background: #ffffff;
+}
+
+/* Global style - start*/
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box
+}
+
+.page {
+  height: 100%;
+}
+
+.page,
+.page-body {
+  min-width: 280px;
+}
+
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows:
+    min-content 1fr min-content;
+  align-content: start;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--text);
+
+  background-color: var(--background);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 20px;
+
+  width: auto;
+}
+
+@media (min-width: 480px) {
+  .container {
+    width: 440px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 728px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 952px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1160px;
+  }
+}
+
+
+/* Global style - end */
+
+/* header - start */
+
+.header {
+  padding-top: 10px;
+}
+
+.header__nav {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: space-between;
+}
+
+.nav__logo__link {
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.nav__list {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+}
+
+.nav__item {
+  padding: 3px 10px;
+}
+
+.nav__item__link {
+  color: var(--text);
+}
+
+/* header - end */
+
+/* main - start */
+
+.name {
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .name {
+    font-size: 64px;
+    line-height: 64px;
+  }
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Contacts - start */
+
+.contacts__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+
+  list-style: none;
+}
+
+.contacts__item {
+  margin: 0 10px;
+}
+
+/* Contacts - end */
+
+/* About me - start */
+
+.about-me__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+/* About me - end */
+
+/* Skills - start */
+
+.skills__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.skills__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+
+  list-style: none;
+}
+
+.skills__item {
+  margin: 10px 10px;
+  padding: 5px;
+
+  border: 2px solid rgba(0, 0, 0, .3);
+  border-radius: 5px;
+}
+
+/* Skills - end */
+
+/* Portfolio - start */
+
+.portfolio__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.portfolio__link {
+  display: block;
+
+  text-align: center;
+}
+
+.portfolio__task{
+  margin-top: 20px;
+}
+
+.portfolio__task {
+  background-color: rgba(0, 0, 0, .1);
+}
+.task__text {
+  background-color: var(--background);
+}
+
+.task__code {
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .task__code {
+    font-size: 14px;
+  }
+}
+
+/* Portfolio - end */
+
+/* Experience - start */
+
+.experience__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+.experience__list {
+  padding: 0;
+  margin: -14px 0;
+
+  list-style: none;
+}
+
+/* Experience - end */
+
+/* Education - start */
+
+.education__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+/* Education - end */
+
+/* Languages - start */
+
+.languages__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+/* Languages - end */
+
+/* main - end */
+
+/* footer - start */
+
+
+.school__wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+
+.school__link {
+  display: flex;
+  align-items: center;
+
+  color: var(--text);
+}
+
+.school__link > svg {
+  margin-right: 10px;
+}
+
+.copyright__text {
+  text-align: center;
+
+  color: rgba(0, 0, 0, .5);
+}
+
+/* footer - end */
