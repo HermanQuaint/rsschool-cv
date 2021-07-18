@@ -271,6 +271,17 @@ input[type="radio"].visually-hidden {
 
 /* Education - end */
 
+/* Languages - start */
+
+.languages__title {
+  margin-top: 50px;
+
+  text-align: center;
+}
+
+
+/* Languages - end */
+
 /* main - end */
 
 /* footer - start */
